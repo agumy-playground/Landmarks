@@ -26,6 +26,7 @@
 		17480A9326B4241E00DB9737 /* charleyrivers@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17480A8626B4241E00DB9737 /* charleyrivers@2x.jpg */; };
 		17480A9426B4241E00DB9737 /* rainbowlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17480A8726B4241E00DB9737 /* rainbowlake@2x.jpg */; };
 		17480A9526B4241E00DB9737 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 17480A8826B4241E00DB9737 /* landmarkData.json */; };
+		17480A9826B56B3A00DB9737 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17480A9726B56B3A00DB9737 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		17480A8626B4241E00DB9737 /* charleyrivers@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charleyrivers@2x.jpg"; sourceTree = "<group>"; };
 		17480A8726B4241E00DB9737 /* rainbowlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbowlake@2x.jpg"; sourceTree = "<group>"; };
 		17480A8826B4241E00DB9737 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		17480A9726B56B3A00DB9737 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				17480A1726AAFCFF00DB9737 /* LandmarksApp.swift */,
 				17480A1926AAFCFF00DB9737 /* ContentView.swift */,
+				17480A9726B56B3A00DB9737 /* Landmark.swift */,
 				17480A1B26AAFD0300DB9737 /* Assets.xcassets */,
 				17480A2726AC4AF300DB9737 /* CircleImage.swift */,
 				17480A2026AAFD0300DB9737 /* Info.plist */,
@@ -224,6 +227,7 @@
 				17480A7726B2E7B800DB9737 /* MapView.swift in Sources */,
 				17480A1826AAFCFF00DB9737 /* LandmarksApp.swift in Sources */,
 				17480A2826AC4AF300DB9737 /* CircleImage.swift in Sources */,
+				17480A9826B56B3A00DB9737 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

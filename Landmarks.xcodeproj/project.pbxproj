@@ -70,7 +70,6 @@
 		17480A0B26AAFCFE00DB9737 = {
 			isa = PBXGroup;
 			children = (
-				17480A7926B4241E00DB9737 /* Resources */,
 				17480A1626AAFCFF00DB9737 /* Landmarks */,
 				17480A1526AAFCFF00DB9737 /* Products */,
 			);
@@ -88,14 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				17480A1726AAFCFF00DB9737 /* LandmarksApp.swift */,
-				17480A1926AAFCFF00DB9737 /* ContentView.swift */,
-				17480A9726B56B3A00DB9737 /* Landmark.swift */,
-				17480A9A26B6C8B700DB9737 /* ModelData.swift */,
+				17480A7926B4241E00DB9737 /* Resources */,
+				17480A9E26B6CA3700DB9737 /* Model */,
+				17480A9D26B6CA2E00DB9737 /* Views */,
 				17480A1B26AAFD0300DB9737 /* Assets.xcassets */,
-				17480A2726AC4AF300DB9737 /* CircleImage.swift */,
 				17480A2026AAFD0300DB9737 /* Info.plist */,
 				17480A1D26AAFD0300DB9737 /* Preview Content */,
-				17480A7626B2E7B800DB9737 /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -142,6 +139,25 @@
 				17480A8726B4241E00DB9737 /* rainbowlake@2x.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		17480A9D26B6CA2E00DB9737 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17480A1926AAFCFF00DB9737 /* ContentView.swift */,
+				17480A2726AC4AF300DB9737 /* CircleImage.swift */,
+				17480A7626B2E7B800DB9737 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17480A9E26B6CA3700DB9737 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17480A9A26B6C8B700DB9737 /* ModelData.swift */,
+				17480A9726B56B3A00DB9737 /* Landmark.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
